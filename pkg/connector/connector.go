@@ -127,6 +127,8 @@ func sendEventToServer(ctx context.Context, evt extension.CommonEvent, data []by
 		req.Header.Set("Authorization", fmt.Sprintf("Bearer %s", adanosToken))
 	}
 
+	req.Header.Set("Content-Type", "application/json")
+
 	resp, err := client.Do(req)
 	if err != nil {
 		return errors.Wrap(err, "request failed")
