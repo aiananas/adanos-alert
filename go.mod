@@ -1,4 +1,4 @@
-module github.com/mylxsw/adanos-alert
+module github.com/aiananas/adanos-alert
 
 go 1.12
 
