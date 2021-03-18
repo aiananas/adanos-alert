@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mylxsw/adanos-alert/internal/extension"
-	"github.com/mylxsw/asteria/log"
+	"github.com/aiananas/adanos-alert/internal/extension"
+	"github.com/aiananas/asteria/log"
 	"github.com/pkg/errors"
 )
 
